@@ -1,0 +1,14 @@
+interface:
+  display_name: Bug Bounty Agent
+  short_description: Scope-safe scanning, triage, and bounty reports
+  default_prompt: Use $bug-bounty-agent to scan an explicitly authorized target and
+    create a triaged vulnerability report.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
