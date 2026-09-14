@@ -1,0 +1,19 @@
+{
+  "authorization": {
+    "confirmed": true,
+    "type": "bug-bounty",
+    "program": "Example authorized program",
+    "rules_url": "https://example.com/security",
+    "valid_until": "2027-12-31"
+  },
+  "automation_allowed": true,
+  "allowed_targets": [
+    "https://app.example.com",
+    "https://*.sandbox.example.com/api/"
+  ],
+  "excluded_targets": [
+    "https://admin.sandbox.example.com"
+  ],
+  "max_requests_per_second": 5,
+  "max_concurrency": 2
+}
